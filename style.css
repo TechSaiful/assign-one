@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+/*********************** header section design starts from here */
+.header{
+    margin: 30px 0;
+}
+
+header .head-left{
+    width: 49%;
+    display: block;
+    float: left;
+}
+
+header .head-right{
+    width: 49%;
+    display: block;
+    text-align: end;
+}
+
+
+header .head-right button{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: 1px solid #222020;
+}
