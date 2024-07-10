@@ -21,6 +21,9 @@ header .head-left{
     display: block;
     float: left;
 }
+header .head-left img{
+    margin-top: 15px;
+}
 
 header .head-right{
     width: 49%;
@@ -30,9 +33,51 @@ header .head-right{
 
 
 header .head-right button{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 700;
     padding: 15px 25px;
     border-radius: 7px;
     border: 1px solid #222020;
+    background: transparent;
 }
+/* header section end from here******************************* */
+
+/* ****************************hero section starts form here */
+.hero-section{
+    background-image: url("image/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 0 50px 0;
+    overflow: hidden;
+    display: block;
+}
+.hero-section .hero-content h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin: auto;
+    word-spacing: 10px;
+    line-height: 65px;
+}
+.hero-section .hero-content p{
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+    color: #636161;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+.hero-section .hero-content button{
+    font-size: 19px;
+    font-family: tahoma;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0D1321;
+    padding: 20px 35px;
+    word-spacing: 7px;
+    border-radius: 8px;
+}
+/* hero section end from here *********************************** */
