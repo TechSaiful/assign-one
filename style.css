@@ -1,25 +1,25 @@
 
+
+/* 
 *{
     margin: 0;
     overflow: hidden;
+}*/
 
-}
 
-
-.container{
+.header-container{
     display: block;
     width: 80%;
     margin: auto;
 }
 
 /*********************** header section design starts from here */
+
 .header{
     margin: 30px 0;
 }
 
 header .head-left{
-    width: 49%;
-    display: block;
     float: left;
 }
 header .head-left img{
@@ -27,11 +27,8 @@ header .head-left img{
 }
 
 header .head-right{
-    width: 49%;
-    display: block;
     text-align: end;
 }
-
 
 header .head-right button{
     font-size: 21px;
@@ -49,6 +46,7 @@ header .head-right button a{
 /* header section end from here******************************* */
 
 /* ****************************hero section starts form here */
+/* 
 .hero-section{
     background-image: url("image/Hero-bg.png");
     background-position: center;
@@ -90,16 +88,12 @@ header .head-right button a{
     color: #ffffff;
     padding: 20px 35px;
     display: block;
-}
+} */
 /* hero section end from here *********************************** */
 
 
 /* why web section starts form here */
-.why-web-section{
-    display: block;
-    overflow: hidden;
-    min-height: 200px;
-}
+
 
 
 
