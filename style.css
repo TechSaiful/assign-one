@@ -24,14 +24,14 @@ p{
     margin: 30px 0;
 }
 
-header .head-left{
+.head-left{
     float: left;
 }
 header .head-left img{
     margin-top: 15px;
 }
 
-header .head-right{
+.head-right{
     text-align: end;
 }
 
