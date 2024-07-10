@@ -5,6 +5,7 @@
 
 }
 
+
 .container{
     display: block;
     width: 80%;
@@ -33,12 +34,17 @@ header .head-right{
 
 
 header .head-right button{
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 700;
-    padding: 15px 25px;
     border-radius: 7px;
     border: 1px solid #222020;
     background: transparent;
+}
+header .head-right button a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    padding: 18px 25px;
+    display: block;
 }
 /* header section end from here******************************* */
 
@@ -76,8 +82,13 @@ header .head-right button{
     font-weight: 600;
     color: #ffffff;
     background-color: #0D1321;
-    padding: 20px 35px;
     word-spacing: 7px;
     border-radius: 8px;
+}
+.hero-section .hero-content button a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 35px;
+    display: block;
 }
 /* hero section end from here *********************************** */
