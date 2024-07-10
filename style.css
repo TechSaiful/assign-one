@@ -6,6 +6,11 @@
     overflow: hidden;
 }*/
 
+p{
+    color: #636161;
+    font-size: 20px;
+    font-family: tahoma;
+}
 
 .header-container{
     display: block;
@@ -46,7 +51,7 @@ header .head-right button a{
 /* header section end from here******************************* */
 
 /* ****************************hero section starts form here */
-/* 
+
 .hero-section{
     background-image: url("image/Hero-bg.png");
     background-position: center;
@@ -69,9 +74,6 @@ header .head-right button a{
     width: 50%;
     margin: auto;
     padding: 40px 0;
-    color: #636161;
-    font-size: 20px;
-    font-family: tahoma;
 }
 
 .hero-section .hero-content button{
@@ -88,18 +90,48 @@ header .head-right button a{
     color: #ffffff;
     padding: 20px 35px;
     display: block;
-} */
+}
 /* hero section end from here *********************************** */
 
 
 /* why web section starts form here */
 
+.why-web-title{
+    font-family: tahoma;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
 
-
-
+.why-web-para{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
 /* why web section ends form here */
 
+
+
+/***************************************** service section starts from here */
+.service-section .service-one .service-left h2{
+    color: #555A63;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.service-section .service-one .service-left button{
+    border: 1px solid #555A63;
+    background: transparent;
+}
+.service-section .service-one .service-left button a{
+    color: #555A63;
+    padding: 10px 35px;
+    display: block;
+    font-family: tahoma;
+}
+
+
+/* service section ends from here */
 
 
 
